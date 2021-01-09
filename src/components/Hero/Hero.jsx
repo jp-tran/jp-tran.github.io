@@ -31,7 +31,7 @@ const Header = () => {
   );
 
   const typedText = (
-    <Typing speed={5} startDelay={2000} hideCursor={true}>
+    <Typing speed={35} startDelay={2000} hideCursor={true}>
       {heroText}
     </Typing>
   );

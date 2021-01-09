@@ -71,17 +71,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/ptran3/',
+      url: 'https://www.linkedin.com/in/jp-tran/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/ptran3',
+      url: 'https://github.com/jp-tran',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: 'https://codepen.io/ptran3',
+      url: 'https://codepen.io/jp-tran',
     },
   ],
 };
