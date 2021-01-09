@@ -68,3 +68,11 @@
     transform: translateY(-2px);
   }
 }
+
+.footer-icon {
+  &:hover,
+  &:focus {
+    color: #01baad;
+    transition: 0.25s ease-out;
+  }
+}

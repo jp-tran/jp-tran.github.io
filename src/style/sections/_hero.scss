@@ -1,7 +1,9 @@
 #hero {
+  position: relative;
   min-height: 100vh;
-  height: 100vh;
   display: flex;
+  flex-direction: 'column';
+  justify-content: 'center';
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
@@ -13,7 +15,6 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
@@ -26,24 +27,42 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 6.5rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
 
     @include respond(tab-land) {
-      font-size: 4rem;
+      font-size: 5.25rem;
     }
     @include respond(tab-port) {
-      font-size: 3.6rem;
-      text-align: center;
+      font-size: 4rem;
     }
     @include respond(phone) {
-      font-size: 3.5rem;
+      font-size: 3.8rem;
       line-height: 1.5;
     }
     @include respond(phone-xs) {
-      font-size: 2.8rem;
+      font-size: 3.5rem;
+    }
+
+    .hero-subtitle {
+      font-size: 4rem;
+      font-weight: 500;
+      text-align: left;
+
+      @include respond(tab-land) {
+        font-size: 3rem;
+      }
+      @include respond(tab-port) {
+        font-size: 3rem;
+      }
+      @include respond(phone) {
+        font-size: 2.5rem;
+      }
+      @include respond(phone-xs) {
+        font-size: 2.3rem;
+      }
     }
   }
 
