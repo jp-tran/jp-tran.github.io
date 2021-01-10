@@ -15,14 +15,14 @@ const NavBar = () => {
 
   const useStyles = makeStyles({
     navbarHeight: {
-      height: isOpen ? '80vh' : 'auto',
+      height: isOpen ? '90vh' : 'auto',
     },
   });
 
   const classes = useStyles();
 
   return (
-    <Navbar style={{ backgroundColor: '#1d1d1d' }} dark expand="md" className="mb-5">
+    <Navbar style={{ backgroundColor: '#1d1d1d', zIndex: 1 }} dark expand="md" className="mb-5">
       <Container>
         <NavbarBrand>
           <img src={logo} alt="logo" width="45px" height="45px" />
