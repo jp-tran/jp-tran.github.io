@@ -28,23 +28,33 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'mit_site_ss.png',
-    title: 'MIT Biomimetics Website',
-    info: 'A revamp of the original lab website with a modern, responsive UI and improved UX.',
-    techs: ['Gatsby', 'React', 'TypeScript', 'Material-UI'],
+    img: 'recurse_store.png',
+    title: 'Recurse Store',
+    info: 'A mock e-commerce platform for Recurse Center participants and alumni.',
+    techs: ['Next.js', 'React', 'TypeScript', 'GraphQL', 'Node.js', 'PostgreSQL'],
     info2: '',
-    url: 'https://jp-tran.github.io/mit-biomimetics-site',
-    repo: 'https://github.com/jp-tran/mit-biomimetics-site', // if no repo, the button will not show up
+    url: 'https://recurse-store.vercel.app/',
+    repo: 'https://github.com/jp-tran/recurse-store',
   },
   {
     id: nanoid(),
-    img: 'discord_logo.png',
+    img: 'mit_site_ss.png',
+    title: 'MIT Biomimetic Robotics Lab Website',
+    info: 'The official website for the MIT Biomimetic Robotics Lab.',
+    techs: ['Gatsby.js', 'React', 'TypeScript', 'Material-UI'],
+    info2: '',
+    url: 'https://biomimetics.mit.edu/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'discord_trivia_bot.png',
     title: 'Discord Trivia Bot',
     info: `A Discord bot that delivers trivia questions and evaluates users' answers, keeping a profile of scores for each server member.`,
     techs: ['Python'],
     info2: '',
     url: '',
-    repo: 'https://github.com/ptran3/discord-trivia-bot', // if no repo, the button will not show up
+    repo: 'https://github.com/jp-tran/discord-trivia-bot', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
