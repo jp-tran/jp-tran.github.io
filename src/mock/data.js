@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile_photo.jpg',
-  paragraphOne: `I'm a self-taught programer with a B.S. in Aerospace Engineering from the University of Notre Dame.`,
+  paragraphOne: `I'm a self-taught programmer with a B.S. in Aerospace Engineering from the University of Notre Dame.`,
   paragraphTwo: `I enjoy creating web apps, learning new technologies, and discovering new ways to write clean, concise code.`,
-  paragraphThree: `Besides programming, I'm passionate about teaching and mentoring. I've held several teaching assistant and mentorship positions (most recently for the Summer Science Program in summer 2020).`,
+  paragraphThree: `Recently, I've enjoyed writing full stack applications with TypeScript, React, and Node.js. Other technologies I've used for web development include MongoDB, PostgreSQL, GraphQL, Express.js, and Jest. Besides web development, I also have programming experience with Python, C++, and Java.`,
   resume: '/resume.pdf', // if no resume, the button will not show up
 };
 
